@@ -1,0 +1,72 @@
+body {
+  /* background: #1B1B1B; */
+  background: #B8B8B8;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid yellow;
+}
+
+.userlist {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.usercard {
+  display: flex;
+  margin-bottom: 4%;
+}
+
+.info {
+  margin-left: 2%;
+}
+
+.polaroid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 192px;
+  height: 252px;
+  background: #B8B8B8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+  width: 192px;
+  height: 192px
+}
+
+.followerslist {
+  display: flex;
+  flex-direction: column;
+}
+
+.followerscard {
+  padding: 1%;
+}
+
+.followerscard p {
+  font-size: .75rem;
+}
+
+.followersimg {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #B8B8B8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
